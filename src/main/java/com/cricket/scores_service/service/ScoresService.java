@@ -3,6 +3,7 @@ package com.cricket.scores_service.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatusCode;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Service;
@@ -10,7 +11,7 @@ import org.springframework.stereotype.Service;
 import com.cricket.scores_service.dto.LiveScore;
 import com.cricket.scores_service.dto.MatchSetup;
 import com.cricket.scores_service.entity.Scores;
-import com.repository.ScoreRepository;
+import com.cricket.scores_service.repository.ScoreRepository;
 
 import lombok.extern.slf4j.Slf4j;
 

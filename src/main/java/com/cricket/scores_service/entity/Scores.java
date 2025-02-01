@@ -30,6 +30,17 @@ public class Scores {
 
     @Column(name="game_ball_no")
     private int gameBallNo;
+
+    @Column(name="striker_player_id")
+    private int strikerPlayerId;
+
+    @Column(name="non_striker_player_id")
+    private int nonStrikerPlayerId;
+
+    @Column(name="bowler_id")
+    private int bowlerId;
+
+    
     
    
     
